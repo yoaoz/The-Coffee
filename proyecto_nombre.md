@@ -5,6 +5,7 @@
 # PRESENTACIÓN (Título/Nombre Proyecto)
 
 **Asignatura**: Bases de Datos I (FaCENA-UNNE)
+
 **Integrantes**:
  - Sed vel lectus nec lectus placerat laoreet et sed est.
  - Sed ac justo ac mauris porttitor convallis non sit amet felis.
@@ -64,11 +65,11 @@ PRODUCT-CATEGORY  ||--|{  PRODUCT  : contains
 PRODUCT  ||--o{  ORDER-ITEM  : "ordered in"
 ```
 ### Diagrama relacional
-![diagrama_relacional](#)
+![diagrama_relacional](https://github.com/dovillegas/basesdatos_proyecto_estudio/blob/main/doc/image_relational.png)
 
 ### Diccionario de datos
 
-Acceso al documento [PDF](#) del diccionario de datos.
+Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 
 
 ### Desarrollo TEMA 1 "----"
