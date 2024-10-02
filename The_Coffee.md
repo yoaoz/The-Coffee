@@ -1,7 +1,3 @@
-# Proyecto de Estudio!
-    
-**Estructura del documento principal:**
-
 # PRESENTACIÓN (The Coffee)
 
 **Asignatura**: Bases de Datos I (FaCENA-UNNE)
@@ -11,6 +7,12 @@
  - Espinola, Emilia
  - Kallus, Clarisa
  - Ozuna, Joaquín
+
+**Profesores**:
+ - Lic. Dario O. Villegas
+ - Lic. Walter O. Vallejos
+ - Exp. Juan Jose Cuzziol
+ - Lic. Numa Badaracco
 
 **Año**: 2024
 
