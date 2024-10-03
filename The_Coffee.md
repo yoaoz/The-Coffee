@@ -38,7 +38,7 @@ Control insuficiente de permisos de usuario: Cuando hay muchos usuarios en un si
 
 Gestión de pagos poco clara: si no hay un sistema claro para administrar los pagos y su estado, se corre el riesgo de errores en la contabilización de ingresos y la conciliación de cuentas. Esto puede tener un impacto en la rentabilidad y la viabilidad de la empresa.
 
-## Objetivos Del Trabajo Practico ##
+### Objetivos Del Trabajo Practico ###
 
 El objetivo de este Trabajo Práctico es diseñar e implementar un sistema de gestión para una cafetería que permita resolver los problemas actuales en cuanto a la gestión de ventas, clientes, productos, pagos y permisos de usuario. El sistema busca mejorar tanto la atención al cliente como la eficiencia operativa de la cafetería.
 
