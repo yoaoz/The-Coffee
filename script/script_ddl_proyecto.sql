@@ -2,9 +2,9 @@
 -- DEFINNICIÓN DEL MODELO DE DATOS
 
 Create DataBase DBTheCoffee
-
+GO
 Use DBTheCoffee 
-
+GO
 CREATE TABLE rol_usuario
 (
   id_rol INT NOT NULL IDENTITY(1,1),
