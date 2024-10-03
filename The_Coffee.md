@@ -20,13 +20,13 @@
 
 ### Caso de estudio
 
--El presente documento aborda el diseño y desarrollo de un sistema de gestión para una cafetería. Este sistema incluirá la gestión de clientes, ventas, productos, pagos, meseros y permisos de usuario, entre otras cosas. Este sistema tiene como objetivo mejorar el proceso de atención al cliente y la gestión interna de la cafetería, lo que permite un manejo más eficiente y ágil de los datos relacionados con las operaciones diarias.
+El presente documento aborda el diseño y desarrollo de un sistema de gestión para una cafetería. Este sistema incluirá la gestión de clientes, ventas, productos, pagos, meseros y permisos de usuario, entre otras cosas. Este sistema tiene como objetivo mejorar el proceso de atención al cliente y la gestión interna de la cafetería, lo que permite un manejo más eficiente y ágil de los datos relacionados con las operaciones diarias.
 
 El sistema está diseñado para controlar una amplia gama de actividades comerciales, desde la creación de productos y categorías hasta la gestión de ventas y pagos. El sistema se enfocará en la facilidad de uso y la accesibilidad para brindar a los empleados las herramientas necesarias para mejorar la experiencia del cliente y maximizar la eficiencia operativa.
 
 ### Definición o planteamiento del problema
 
--El objetivo principal del sistema es resolver una serie de problemas que la cafetería actualmente enfrenta en su operación diaria. A continuación se enumeran los problemas encontrados:
+El objetivo principal del sistema es resolver una serie de problemas que la cafetería actualmente enfrenta en su operación diaria. A continuación se enumeran los problemas encontrados:
 
 Falta de un sistema integrado: la cafetería no tiene un sistema unificado para administrar las ventas, los pagos y la información del cliente de manera eficiente. Esto conduce a un manejo de información desorganizado y a una experiencia de cliente insatisfactoria.
 
