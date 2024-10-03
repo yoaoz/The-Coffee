@@ -40,7 +40,7 @@ Gestión de pagos poco clara: si no hay un sistema claro para administrar los pa
 
 ### Objetivos Del Trabajo Practico ###
 
-El objetivo de este Trabajo Práctico es diseñar e implementar un sistema de gestión para una cafetería que permita resolver los problemas actuales en cuanto a la gestión de ventas, clientes, productos, pagos y permisos de usuario. El sistema busca mejorar tanto la atención al cliente como la eficiencia operativa de la cafetería.
+El objetivo principal del trabajo es desarrollar un sistema de gestión para una cafetería que solucione los problemas actuales relacionados con la gestión de clientes, ventas, productos, pagos, meseros, y permisos de usuario. El sistema está diseñado para mejorar tanto la atención al cliente como la eficiencia operativa interna, proporcionando una herramienta que permita gestionar y analizar los datos de manera integrada y accesible.
 
 **Objetivos Generales**
 
