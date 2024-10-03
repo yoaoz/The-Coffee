@@ -35,8 +35,8 @@ CREATE TABLE Mesero
   estado BIT CONSTRAINT DF_Mesero_estado DEFAULT 1 NOT NULL,
   CONSTRAINT PK_Mesero_id  PRIMARY KEY (id_mesero),
   CONSTRAINT UQ_Mesero_dni UNIQUE (dni),
-  CONSTRAINT UQ_Mesero_telefono UNIQUE (telefono)
-  CONSTRAINT CK_Horario CHECK (hora_entrada < hora_salida)
+  CONSTRAINT UQ_Mesero_telefono UNIQUE (telefono),
+  CONSTRAINT CK_Horario CHECK (hora_entrada < hora_salida),
   CONSTRAINT CK_hora CHECK (hora_entrada BETWEEN 1 AND 24 AND hora_salida BETWEEN 1 AND  24),
 CONSTRAINT CK_Diferencia_Horas CHECK (hora_salida - hora_entrada <= 8),
 CONSTRAINT CK_DNI CHECK (dni BETWEEN 0 AND 99999999)
@@ -105,7 +105,7 @@ CREATE TABLE Permiso
 (
   id_permiso INT IDENTITY(1,1) NOT NULL,
   descripcion VARCHAR(100) NOT NULL,
-  CONSTRAINT PK_Permiso_id PRIMARY KEY (id_permiso)
+  CONSTRAINT PK_Permiso_id PRIMARY KEY (id_permiso),
   CONSTRAINT UQ_Permisol_descripcion UNIQUE (descripcion)
 );
 
@@ -160,7 +160,7 @@ CREATE TABLE Movimiento_Caja
   descripcion VARCHAR(255) NOT NULL,
   id_turno INT NOT NULL,
   id_caja INT NOT NULL,
-  CONSTRAINT PK_ Moviento_Caja_id  PRIMARY KEY (id_movimiento),
+  CONSTRAINT PK_Moviento_Caja_id  PRIMARY KEY (id_movimiento),
   CONSTRAINT FK_Movimiento_Caja_id_turno_id_caja FOREIGN KEY (id_turno, id_caja) REFERENCES Turno_Caja(id_turno, id_caja)
 );
 
@@ -202,6 +202,6 @@ CREATE TABLE Pago
   id_medio_pago INT NOT NULL,
   CONSTRAINT PK_Pago_id  PRIMARY KEY (id_pago),
   CONSTRAINT FK_Pago_Venta FOREIGN KEY (id_ventas) REFERENCES Venta(id_ventas),
-  CONSTRAINT FK_Pago_Medio_pago FOREIGN KEY (id_medio_pago) REFERENCES Medio_Pago(id_medio_pago)
-  CONSTRAINT CK_Pago_Estado CHECK (estado IN ('en proceso', 'rechazado, 'finalizado))	
+  CONSTRAINT FK_Pago_Medio_pago FOREIGN KEY (id_medio_pago) REFERENCES Medio_Pago(id_medio_pago),
+  CONSTRAINT CK_Pago_Estado CHECK (estado IN ('en proceso', 'rechazado', 'finalizado'))	
 );
