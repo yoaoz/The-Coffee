@@ -48,16 +48,16 @@ El objetivo general de este Trabajo Práctico es la creación de un sistema unif
 
 **Objetivos Específicos**
 
- **1)**: Integrar la gestión de ventas, pagos y clientes en una única plataforma para evitar la desorganización de datos y mejorar la    
+ **1)** Integrar la gestión de ventas, pagos y clientes en una única plataforma para evitar la desorganización de datos y mejorar la    
    experiencia del cliente.
    
- **2)**: Facilitar el seguimiento y análisis de las ventas mediante reportes precisos que permitan una mejor toma de decisiones en áreas 
+ **2)** Facilitar el seguimiento y análisis de las ventas mediante reportes precisos que permitan una mejor toma de decisiones en áreas 
    como inventarios y promociones.
    
- **3)**: Implementar un control de permisos de usuarios para garantizar que cada empleado acceda solo a las funciones necesarias según 
+ **3)** Implementar un control de permisos de usuarios para garantizar que cada empleado acceda solo a las funciones necesarias según 
    su rol, mejorando la seguridad y reduciendo errores.
    
- **4)**: Optimizar la gestión de pagos, proporcionando un registro claro de transacciones para mejorar la contabilidad y la conciliación 
+ **4)** Optimizar la gestión de pagos, proporcionando un registro claro de transacciones para mejorar la contabilidad y la conciliación 
    de cuentas.
 
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
