@@ -84,20 +84,22 @@ El objetivo general de este Trabajo Práctico es la creación de un sistema unif
  **a) Cómo se realizó el Trabajo Práctico**
 Lo primero que hicimos fue decidir el caso estudio, cada uno propuso sus ideas y se terminó votando por el actual que nos pareció más idóneo.
 Luego se creó el diseño del Modelo Entidad-Relacion (ER), y posteriormente se hizo la carga de datos y a continuación el diccionario de datos.
+
 Luego de la primera entrega cada uno procedió a seleccionar un tema y desarrollarlo:
-Manejo de permisos a nivel de usuarios de base de datos.
-Procedimientos y funciones almacenadas.
-Optimización de consultas a través de índices.
-índices columnares en SQL Server.
+- Manejo de permisos a nivel de usuarios de base de datos.
+- Procedimientos y funciones almacenadas.
+- Optimización de consultas a través de índices.
+- Índices columnares en SQL Server.
 
  **b) Herramientas (Instrumentos y procedimientos)**
 
 Utilizamos las siguientes herramientas:
 
-ERD Plus es una herramienta intuitiva y efectiva para el modelado de bases de datos, que permite crear diagramas relacionales y conceptuales, además de generar código SQL. Con ERD Plus, logramos diseñar el esquema conceptual de nuestro proyecto.
-SQL Server Management Studio 20 es un software de administración de bases de datos creado por Microsoft, diseñado principalmente para trabajar con SQL Server y otros lenguajes de consulta, allí desarrollamos las consultas para los temas individuales y carga de datos.
-Excel se utilizó para elaborar el diccionario de datos de la base de datos.
+- ERD Plus es una herramienta intuitiva y efectiva para el modelado de bases de datos, que permite crear diagramas relacionales y conceptuales, además de generar código SQL. Con ERD Plus, logramos diseñar el esquema conceptual de nuestro proyecto.
 
+- SQL Server Management Studio 20 es un software de administración de bases de datos creado por Microsoft, diseñado principalmente para trabajar con SQL Server y otros lenguajes de consulta, allí desarrollamos las consultas para los temas individuales y carga de datos.
+
+- Excel se utilizó para elaborar el diccionario de datos de la base de datos.
 
 ## CAPÍTULO IV: DESARROLLO DEL TEMA / PRESENTACIÓN DE RESULTADOS 
 
