@@ -103,8 +103,9 @@ Acceso al documento [PDF](doc/Diccionario_de_Datos.pdf) del diccionario de datos
 
 > Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_2](script/tema02_nombre_tema)
 
-... 
 
+### Desarrollo TEMA 4 "Índices columnares en SQL server"
+> Acceder a la siguiente carpeta para ver el tema [Índices columnares en SQL server](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_04_%C3%8Dndices_columnares_en_SQL_server/%C3%8Dndices_columnares_en_SQL_server.md)
 
 ## CAPÍTULO V: CONCLUSIONES
 
@@ -117,6 +118,6 @@ Acceso al documento [PDF](doc/Diccionario_de_Datos.pdf) del diccionario de datos
  1. - Procedimientos almacenados: https://learn.microsoft.com/es-es/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-ver16
  2. - Create Function (Transact-SQL): https://learn.microsoft.com/es-es/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver16
  3. - Roles en el nivel de base de datos: https://learn.microsoft.com/es-es/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver16
- 4. -
+ 4. - Índices columnares en SQL server: https://learn.microsoft.com/es-es/sql/relational-databases/indexes/columnstore-indexes-overview?view=sql-server-ver16
  5. -
 
