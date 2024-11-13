@@ -1,4 +1,4 @@
-#Tema 2 Procedimientos y funciones almacenadas
+# Tema 2 Procedimientos y funciones almacenadas
 
 Un procedimiento almacenado y una función almacenada son ambos objetos de base de datos que contienen bloques de código SQL que pueden ser ejecutados por el sistema de gestión de bases de datos (SGBD). Aunque ambos sirven para encapsular lógica que puede ser reutilizada, tienen algunas diferencias clave en cuanto a su propósito, comportamiento y características.
 
