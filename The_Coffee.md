@@ -63,47 +63,10 @@ El objetivo general de este Trabajo Práctico es la creación de un sistema unif
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
 **TEMA 1 "  Manejo de permisos a nivel de usuarios de base de datos  "**
-
-El manejo de permisos a nivel de usuarios en bases de datos es un conjunto de prácticas y procedimientos que permiten controlar el acceso y las operaciones que los usuarios pueden realizar sobre los datos almacenados en una base de datos. Este proceso es fundamental para garantizar la seguridad, la integridad y la confidencialidad de la información, así como para asegurar que los usuarios solo tengan acceso a los recursos que necesitan para realizar sus tareas específicas.
-
-El manejo de permisos se refiere a la asignación de privilegios a los usuarios o roles, lo que les permite realizar acciones como consultar, insertar, actualizar o eliminar datos, así como acceder a ciertos objetos de la base de datos, como tablas, vistas o procedimientos almacenados. Además, permite definir niveles de acceso, desde permisos básicos hasta más complejos, según el perfil de cada usuario o grupo de usuarios.
-
-Este control es crucial en entornos donde múltiples personas o aplicaciones interactúan con la base de datos, ya que ayuda a: 
-
-Proteger la información sensible: Restringir el acceso a datos confidenciales solo a usuarios autorizados.
-Prevenir errores accidentales: Limitar las acciones que un usuario puede realizar, reduciendo el riesgo de modificaciones no deseadas.
-Auditoría y trazabilidad: Permitir el seguimiento de las acciones realizadas por los usuarios, lo que es esencial para la detección de fraudes o errores.
-Cumplimiento normativo: Asegurar que la gestión de la base de datos cumpla con leyes y regulaciones sobre privacidad y seguridad de datos.
-En resumen, el manejo adecuado de permisos a nivel de usuarios es esencial para garantizar un entorno de base de datos seguro, eficiente y conforme a las necesidades de la organización.
-
 -
 
 
 **TEMA 2 " Procedimientos y funciones almacenadas "** 
-
-Un procedimiento almacenado y una función almacenada son ambos objetos de base de datos que contienen bloques de código SQL que pueden ser ejecutados por el sistema de gestión de bases de datos (SGBD). Aunque ambos sirven para encapsular lógica que puede ser reutilizada, tienen algunas diferencias clave en cuanto a su propósito, comportamiento y características.
-
-- Procedimiento almacenado
-Definición: Un procedimiento almacenado es un conjunto de instrucciones SQL que se almacenan y se ejecutan en la base de datos. Generalmente, se utilizan para realizar operaciones complejas o repetitivas que implican manipulación de datos o administración de la base de datos.
-
-Características:
-Puede realizar operaciones de modificación de datos, como INSERT, UPDATE y DELETE.
-No devuelve un valor directo (aunque puede devolver un valor de estado o código de error a través de parámetros de salida).
-Puede aceptar parámetros de entrada y parámetros de salida.
-Es posible realizar transacciones dentro del procedimiento.
-Puede no devolver nada explícitamente, aunque puede generar resultados a través de un conjunto de resultados, o también puede retornar un código de estado.
-
-- Función almacenada
-Definición: Una función almacenada es un conjunto de instrucciones SQL que también se almacena en la base de datos, pero a diferencia de un procedimiento, una función siempre devuelve un valor. Este valor se puede utilizar en una expresión SQL o como parte de una consulta.
-
-Características:
-Siempre devuelve un valor (puede ser un valor simple, como un número o una cadena, o incluso un conjunto de resultados en algunos SGBD).
-No debe realizar modificaciones en la base de datos (no debe tener operaciones de tipo INSERT, UPDATE o DELETE). Su uso principal es el cálculo o la obtención de valores a partir de los datos.
-Puede aceptar parámetros de entrada.
-Se utiliza principalmente en consultas SELECT o en expresiones.
-
-En resumen, la principal diferencia es que las funciones se utilizan cuando necesitamos un valor a ser utilizado en una expresión o consulta, mientras que los procedimientos son más adecuados para realizar acciones complejas dentro de la base de datos sin necesidad de devolver un valor directo.
-
 -
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
