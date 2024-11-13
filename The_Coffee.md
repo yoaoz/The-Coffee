@@ -119,5 +119,7 @@ Acceso al documento [PDF](doc/Diccionario_de_Datos.pdf) del diccionario de datos
  2. - Create Function (Transact-SQL): https://learn.microsoft.com/es-es/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver16
  3. - Roles en el nivel de base de datos: https://learn.microsoft.com/es-es/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver16
  4. - Índices columnares en SQL server: https://learn.microsoft.com/es-es/sql/relational-databases/indexes/columnstore-indexes-overview?view=sql-server-ver16
- 5. -
+ 5. - Referencia: Medina, B. (2019, octubre 16). Diseño efectivo de índices agrupados SQL Server. SQLShack en Español. https://www.sqlshack.com/es/diseno-efectivo-de-indices-agrupados-sql-server/
+ 6. - Referencia: Medina, B. (2019, octubre 9). ¿Cuál es la diferencia entre índices agrupados y no agrupados en SQL Server? SQLShack en Español. https://www.sqlshack.com/es/cual-es-la-diferencia-entre-indices-agrupados-y-no-agrupados-en-sql-server/
+ 7. - Referencia: Listopro Community. (n.d.). Índices y optimización en SQL. Listopro Community. https://community.listopro.com/indices-y-optimizacion-en-sql/
 
