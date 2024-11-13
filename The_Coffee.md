@@ -63,11 +63,16 @@ El objetivo general de este Trabajo Práctico es la creación de un sistema unif
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
 **TEMA 1 "  Manejo de permisos a nivel de usuarios de base de datos  "**
--
 
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Manejo de permisos a nivel de usuarios de base de datos](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema01_Manejo_De_Permisos_A_Nivel_De_Usuarios/tema_01_Manejo_De_Permisos_A_Nivel_De_Usuarios.md)
 
 **TEMA 2 " Procedimientos y funciones almacenadas "** 
--
+
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Procedimientos y funciones almacenadas](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema02_Procedimientos_Y_Funciones_Almacenadas/tema_02_Procedimientos_Y_Funciones_Almacenadas.md)
+
+**TEMA 3 " Optimización de consultas a través de índices "** 
+
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Optimización de consultas a través de índices](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_03_Optimizaci%C3%B3n_de_consultas_a_trav%C3%A9s_de_%C3%ADndices/Optimizaci%C3%B3n_de_consultas_a_trav%C3%A9s_de_%C3%ADndices.md)
 
 **TEMA 4 " Índices columnares en SQL server "**  
 
@@ -94,19 +99,14 @@ El objetivo general de este Trabajo Práctico es la creación de un sistema unif
 
 Acceso al documento [PDF](doc/Diccionario_de_Datos.pdf) del diccionario de datos.
 
+### Desarrollo TEMA 1 "Manejo de permisos a nivel de usuarios de base de datos"
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Manejo de permisos a nivel de usuarios de base de datos](https://github.com/yoaoz/The-Coffee/tree/main/script/Tema01_Manejo_De_Permisos_A_Nivel_De_Usuarios)
 
-### Desarrollo TEMA 1 "----"
+### Desarrollo TEMA 2 "Procedimientos y funciones almacenadas"
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Procedimientos y funciones almacenadas](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema02_Procedimientos_Y_Funciones_Almacenadas/procedimientosYFuncionesAlmacenadas_script.sql)
 
--
-
-> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_nombre_tema)
-
-### Desarrollo TEMA 2 "----"
-
--
-
-> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_2](script/tema02_nombre_tema)
-
+### Desarrollo TEMA 3 "Optimización de consultas a través de índices"
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Optimización de consultas a través de índices](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_03_Optimizaci%C3%B3n_de_consultas_a_trav%C3%A9s_de_%C3%ADndices/script.sql)
 
 ### Desarrollo TEMA 4 "Índices columnares en SQL server"
 > Acceder a la siguiente carpeta para ver el desarrollo del script [Índices columnares en SQL server](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_04_%C3%8Dndices_columnares_en_SQL_server/script.sql)
