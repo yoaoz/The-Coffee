@@ -100,15 +100,15 @@ SELECT * FROM dbo.ObtenerProductosActivos();
 Estas funciones operan sobre un conjunto de datos y devuelven un único valor agregado, como la suma (SUM), el promedio (AVG), el máximo (MAX), o el mínimo (MIN). Son muy útiles para realizar cálculos sobre columnas de una tabla.
 
 # Conclusiones
-## 1. Objetivo y Propósito
-**Funciones:** Están diseñadas principalmente para devolver un valor calculado o un conjunto de resultados (en el caso de funciones de tabla). Se utilizan para calcular valores o realizar operaciones sobre los datos y devolver un resultado que se puede usar dentro de una consulta. Son ideales para operaciones reutilizables dentro de consultas.
-**Procedimientos:** Su objetivo es ejecutar un conjunto de instrucciones SQL, como consultas o modificaciones de datos, sin necesariamente devolver un valor. Son más versátiles y pueden realizar tareas más complejas, como la manipulación de datos, la ejecución de transacciones o la invocación de otras funciones y procedimientos.
-## 2. Retorno de Resultados
-**Funciones:** Deben devolver un valor (ya sea un solo valor o una tabla de resultados). Su uso está limitado a devolver un único valor calculado o un conjunto de datos.
-**Procedimientos:** No están limitados a un solo tipo de retorno. Pueden devolver valores a través de parámetros de salida, manejar errores, o simplemente realizar operaciones sin devolver un valor. Son más flexibles en cuanto a la manipulación y control de datos.
-## 3. Utilización dentro de Consultas
-**Funciones:** Se pueden usar directamente dentro de consultas SELECT, WHERE, HAVING o JOIN, ya que pueden devolver un valor o conjunto de resultados que se integra fácilmente en el flujo de la consulta.
-**Procedimientos Almacenados:** No pueden ser llamados directamente desde una consulta SELECT. Se ejecutan como comandos separados, fuera del flujo de la consulta principal. Para interactuar con los resultados, necesitarías usar parámetros de salida o procesar los resultados en la aplicación.
-## 4. Control de Errores y Flujo
-**Funciones:** Tienen un control limitado de errores. No pueden usar estructuras como TRY CATCH para manejar excepciones. Su flujo es más simple y orientado a la obtención de resultados.
-**Procedimientos Almacenados:** Pueden manejar errores con TRY CATCH y tienen un control más completo del flujo de ejecución, lo que los hace adecuados para operaciones más complejas.
+### 1. Objetivo y Propósito
+- **Funciones:** Están diseñadas principalmente para devolver un valor calculado o un conjunto de resultados (en el caso de funciones de tabla). Se utilizan para calcular valores o realizar operaciones sobre los datos y devolver un resultado que se puede usar dentro de una consulta. Son ideales para operaciones reutilizables dentro de consultas.
+- **Procedimientos:** Su objetivo es ejecutar un conjunto de instrucciones SQL, como consultas o modificaciones de datos, sin necesariamente devolver un valor. Son más versátiles y pueden realizar tareas más complejas, como la manipulación de datos, la ejecución de transacciones o la invocación de otras funciones y procedimientos.
+### 2. Retorno de Resultados
+- **Funciones:** Deben devolver un valor (ya sea un solo valor o una tabla de resultados). Su uso está limitado a devolver un único valor calculado o un conjunto de datos.
+- **Procedimientos:** No están limitados a un solo tipo de retorno. Pueden devolver valores a través de parámetros de salida, manejar errores, o simplemente realizar operaciones sin devolver un valor. Son más flexibles en cuanto a la manipulación y control de datos.
+### 3. Utilización dentro de Consultas
+- **Funciones:** Se pueden usar directamente dentro de consultas SELECT, WHERE, HAVING o JOIN, ya que pueden devolver un valor o conjunto de resultados que se integra fácilmente en el flujo de la consulta.
+- **Procedimientos Almacenados:** No pueden ser llamados directamente desde una consulta SELECT. Se ejecutan como comandos separados, fuera del flujo de la consulta principal. Para interactuar con los resultados, necesitarías usar parámetros de salida o procesar los resultados en la aplicación.
+### 4. Control de Errores y Flujo
+- **Funciones:** Tienen un control limitado de errores. No pueden usar estructuras como TRY CATCH para manejar excepciones. Su flujo es más simple y orientado a la obtención de resultados.
+- **Procedimientos Almacenados:** Pueden manejar errores con TRY CATCH y tienen un control más completo del flujo de ejecución, lo que los hace adecuados para operaciones más complejas.
