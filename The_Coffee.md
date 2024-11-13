@@ -69,6 +69,9 @@ El objetivo general de este Trabajo Práctico es la creación de un sistema unif
 **TEMA 2 " Procedimientos y funciones almacenadas "** 
 -
 
+**TEMA 4 "Índices columnares en SQL server"**
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Índices columnares en SQL server](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_04_%C3%8Dndices_columnares_en_SQL_server/%C3%8Dndices_columnares_en_SQL_server.md)
+
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
 -
@@ -105,7 +108,7 @@ Acceso al documento [PDF](doc/Diccionario_de_Datos.pdf) del diccionario de datos
 
 
 ### Desarrollo TEMA 4 "Índices columnares en SQL server"
-> Acceder a la siguiente carpeta para ver el tema [Índices columnares en SQL server](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_04_%C3%8Dndices_columnares_en_SQL_server/%C3%8Dndices_columnares_en_SQL_server.md)
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Índices columnares en SQL server](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_04_%C3%8Dndices_columnares_en_SQL_server/script.sql)
 
 ## CAPÍTULO V: CONCLUSIONES
 
