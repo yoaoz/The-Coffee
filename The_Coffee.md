@@ -102,8 +102,6 @@ Utilizamos las siguientes herramientas:
 - Excel se utilizó para elaborar el diccionario de datos de la base de datos.
 
 ## CAPÍTULO IV: DESARROLLO DEL TEMA / PRESENTACIÓN DE RESULTADOS 
-
--
 ### Diagrama relacional
 ![diagrama_relacional](https://github.com/yoaoz/The-Coffee/blob/main/doc/modelo_relacional.png)
 
