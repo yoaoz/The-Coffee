@@ -179,7 +179,7 @@ END;
 
 GO 
  
- --Procemiento que muestra la edad
+ --Procedimiento que muestra la edad
  CREATE PROCEDURE MostrarEdad
     @FechaNacimiento DATE
 AS
