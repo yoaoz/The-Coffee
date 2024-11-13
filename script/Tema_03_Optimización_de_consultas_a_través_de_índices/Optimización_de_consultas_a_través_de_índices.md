@@ -17,8 +17,7 @@ El índice agrupado se organiza mediante estructuras B-Árbol, con el objetivo d
 En las tablas montón (que son aquellas tablas que no tienen un índice agrupado), la ausencia de los índices agrupados significa que la información no es clasificada en la tabla que le sigue.
 Ideal para columnas que se emplean a menudo en rangos de búsqueda o en columnas singulares, como una fecha o un identificador singular.
 
--- **Ejemplo**
-
+**Ejemplo**
 `CREATE CLUSTERED INDEX IDX_Movimiento_Caja_Fecha ON Movimiento_Caja(fecha);`
 
 * **Índices  no agrupados (Non-Clustered Index):** 
@@ -29,8 +28,7 @@ Mantiene una estructura separada, donde se almacena el valor de la clave y un pu
 Útil en columnas que no son clave primaria, pero que se consultan con frecuencia, como columnas en filtros WHERE.
 Mejora el rendimiento de búsquedas y consultas en columnas específicas, pero no impacta el orden físico de los datos.
 	
---**Ejemplo**
-
+**Ejemplo**
 `CREATE NONCLUSTERED INDEX IX_Movimiento_Caja_Fecha_TipoMovimiento_Include ON Movimiento_Caja (fecha, tipo_movimiento) INCLUDE (monto, descripcion);`
 
 ## Conclusiones
