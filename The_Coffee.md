@@ -123,9 +123,13 @@ Acceso al documento [PDF](doc/Diccionario_de_Datos.pdf) del diccionario de datos
 
 ## CAPÍTULO V: CONCLUSIONES
 
--
+Este trabajo práctico nos facilitó comprender la relevancia de una estructura y diseño apropiados de las bases de datos para la adecuada administración de la información. En el transcurso de este proyecto, logramos todos los objetivos establecidos, resaltando la optimización en la gestión de datos fundamentales como: la gestión de permisos a nivel de usuario, la mejora de consultas y la optimización del rendimiento mediante el uso de índices columnares para el manejo de grandes volúmenes de información.
+La gestión de los permisos a nivel de usuarios es crucial para la protección de la información, proporcionando un control sobre las actividades que cada usuario puede llevar a cabo en la base de datos.
 
-
+Respecto a la mejora de las consultas, la aplicación de índices convencionales incrementó de manera notable el desempeño, acelerando los tiempos de respuesta durante las búsquedas y accesos a la información.
+El uso de procesos y funciones guardadas posibilitó la modularización de la realización de tareas reiterativas y complejas.
+Los índices en columna en SQL server han probado ser esenciales para gestionar grandes volúmenes de datos, dado que optimizan el desempeño en la lectura y el análisis de la información.
+La adecuada aplicación de estos principios facilitó la obtención de una solución eficaz y segura, en concordancia con los objetivos establecidos. Este proyecto no solo nos facilitó la comprensión de los conocimientos obtenidos y la adquisición de nuevos saberes, sino que también nos demostró la importancia de una gestión meticulosa y organizada de las bases de datos en contextos prácticos.
 
 ## BIBLIOGRAFÍA DE CONSULTA
 
