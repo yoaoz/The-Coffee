@@ -44,11 +44,11 @@ END;
 ```
 ## Ventajas de Usar Procedimientos Almacenados
 1. Mejora del rendimiento:
-  *Precompilación: Los procedimientos almacenados se compilan una vez y se almacenan en la base de datos, lo que reduce el tiempo de         ejecución en consultas subsecuentes, ya que no es necesario recompilar cada vez.
-  *Menor tráfico de red: Al enviar solo el nombre del procedimiento y los parámetros, en lugar de enviar consultas SQL completas, se         reduce el tráfico de datos entre la aplicación y la base de datos.
+  - Precompilación: Los procedimientos almacenados se compilan una vez y se almacenan en la base de datos, lo que reduce el tiempo de         ejecución en consultas subsecuentes, ya que no es necesario recompilar cada vez.
+  - Menor tráfico de red: Al enviar solo el nombre del procedimiento y los parámetros, en lugar de enviar consultas SQL completas, se         reduce el tráfico de datos entre la aplicación y la base de datos.
 2. Modularidad y reutilización de código:
-    *Permiten encapsular la lógica de operaciones complejas (como inserciones, actualizaciones o consultas) en un solo lugar, lo que hace     que el código sea más organizado y reutilizable.
-    *Se pueden reutilizar en diferentes partes de la aplicación sin necesidad de reescribir el mismo código una y otra vez
+  - Permiten encapsular la lógica de operaciones complejas (como inserciones, actualizaciones o consultas) en un solo lugar, lo que hace      que el código sea más organizado y reutilizable.
+  - Se pueden reutilizar en diferentes partes de la aplicación sin necesidad de reescribir el mismo código una y otra vez
 3. Facilita la gestión y mantenimiento:
     *Los procedimientos almacenados centralizan la lógica de negocios en la base de datos, lo que facilita la actualización y                 mantenimiento de la lógica, ya que solo se necesita modificar el procedimiento en lugar de buscar y actualizar múltiples fragmentos       de código en la aplicación.
     Cambios en la lógica de la base de datos (como agregar nuevos campos a una consulta o cambiar un algoritmo) no requieren                  modificaciones en la aplicación cliente.
