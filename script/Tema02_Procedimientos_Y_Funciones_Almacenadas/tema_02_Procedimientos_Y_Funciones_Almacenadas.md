@@ -100,7 +100,6 @@ SELECT * FROM dbo.ObtenerProductosActivos();
 Estas funciones operan sobre un conjunto de datos y devuelven un único valor agregado, como la suma (SUM), el promedio (AVG), el máximo (MAX), o el mínimo (MIN). Son muy útiles para realizar cálculos sobre columnas de una tabla.
 
 # Conclusiones
-En resumen, la principal diferencia es que las funciones se utilizan cuando necesitamos un valor a ser utilizado en una expresión o consulta, mientras que los procedimientos son más adecuados para realizar acciones complejas dentro de la base de datos sin necesidad de devolver un valor directo.
 ## 1. Objetivo y Propósito
 **Funciones:** Están diseñadas principalmente para devolver un valor calculado o un conjunto de resultados (en el caso de funciones de tabla). Se utilizan para calcular valores o realizar operaciones sobre los datos y devolver un resultado que se puede usar dentro de una consulta. Son ideales para operaciones reutilizables dentro de consultas.
 **Procedimientos:** Su objetivo es ejecutar un conjunto de instrucciones SQL, como consultas o modificaciones de datos, sin necesariamente devolver un valor. Son más versátiles y pueden realizar tareas más complejas, como la manipulación de datos, la ejecución de transacciones o la invocación de otras funciones y procedimientos.
