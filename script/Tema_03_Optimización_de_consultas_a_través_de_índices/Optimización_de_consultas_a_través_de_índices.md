@@ -16,7 +16,9 @@ Guarda los datos de la tabla en el disco duro en la secuencia del índice. Solo 
 El índice agrupado se organiza mediante estructuras B-Árbol, con el objetivo de activar el Motor SQL Server para localizar rápidamente las filas necesarias vinculadas a los valores clave de índice. Se percibe cada página en la estructura de índice B-Árbol como un tipo de índice. El nodo superior se conoce como nodo Raíz y los nodos inferiores como nodos Hoja, donde se guardan y categorizan las páginas de las tablas de información según los valores clave de índice.
 En las tablas montón (que son aquellas tablas que no tienen un índice agrupado), la ausencia de los índices agrupados significa que la información no es clasificada en la tabla que le sigue.
 Ideal para columnas que se emplean a menudo en rangos de búsqueda o en columnas singulares, como una fecha o un identificador singular.
+
 -- **Ejemplo**
+
 `CREATE CLUSTERED INDEX IDX_Movimiento_Caja_Fecha ON Movimiento_Caja(fecha);`
 
 * **Índices  no agrupados (Non-Clustered Index):** 
@@ -25,8 +27,10 @@ Dentro de la tabla los datos serán ordenados por un índice agrupado. De todos 
 Cuando una consulta es lanzada contra una columna en la cual el índice es creado, la base de datos primero irá al índice y buscará la dirección de la fila correspondiente en la tabla. Luego, irá a esa dirección de fila y obtendrá otros valores de columna. Es debido a este paso adicional que los índices no agrupados son más lentos que los índices agrupados.
 Mantiene una estructura separada, donde se almacena el valor de la clave y un puntero a la fila correspondiente. Esto permite múltiples índices no agrupados en una misma tabla, lo que mejora la flexibilidad para optimizar diferentes consultas.
 Útil en columnas que no son clave primaria, pero que se consultan con frecuencia, como columnas en filtros WHERE.
-Mejora el rendimiento de búsquedas y consultas en columnas específicas, pero no impacta el orden físico de los datos.	
+Mejora el rendimiento de búsquedas y consultas en columnas específicas, pero no impacta el orden físico de los datos.
+	
 --**Ejemplo**
+
 `CREATE NONCLUSTERED INDEX IX_Movimiento_Caja_Fecha_TipoMovimiento_Include ON Movimiento_Caja (fecha, tipo_movimiento) INCLUDE (monto, descripcion);`
 
 ## Conclusiones
