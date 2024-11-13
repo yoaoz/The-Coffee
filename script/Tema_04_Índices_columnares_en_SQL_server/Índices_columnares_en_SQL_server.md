@@ -23,7 +23,7 @@ En SQL Server tenemos el índice Columnstore.
 -   No es adecuado para cargas de trabajo con muchas actualizaciones, inserciones o eliminaciones, ya que los índices Columnstore son más adecuados para consultas de solo lectura.
 
 ## Tareas
-> Ver el script para entender más [script.sql]()
+> Ver el script para entender más [script.sql](https://github.com/yoaoz/The-Coffee/blob/main/script/Tema_04_%C3%8Dndices_columnares_en_SQL_server/%C3%8Dndices_columnares_en_SQL_server.md)
 
 ## Conclusiones
 En la tabla `Venta_con_IC`, el índice columnar mejoró considerablemente el tiempo de respuesta de las consultas analíticas en comparación con `Venta_sin_IC y Venta_con_AC`. Esto demuestra que los índices columnares son ideales para consultas que requieren un análisis intensivo de datos en grandes volúmenes.
