@@ -1,9 +1,32 @@
 # Tema 2 Procedimientos y funciones almacenadas
 
+## Introducción
 Un procedimiento almacenado y una función almacenada son ambos objetos de base de datos que contienen bloques de código SQL que pueden ser ejecutados por el sistema de gestión de bases de datos (SGBD). Aunque ambos sirven para encapsular lógica que puede ser reutilizada, tienen algunas diferencias clave en cuanto a su propósito, comportamiento y características.
 
-Procedimiento almacenado Definición: Un procedimiento almacenado es un conjunto de instrucciones SQL que se almacenan y se ejecutan en la base de datos. Generalmente, se utilizan para realizar operaciones complejas o repetitivas que implican manipulación de datos o administración de la base de datos.
-Características: Puede realizar operaciones de modificación de datos, como INSERT, UPDATE y DELETE. No devuelve un valor directo (aunque puede devolver un valor de estado o código de error a través de parámetros de salida). Puede aceptar parámetros de entrada y parámetros de salida. Es posible realizar transacciones dentro del procedimiento. Puede no devolver nada explícitamente, aunque puede generar resultados a través de un conjunto de resultados, o también puede retornar un código de estado.
+## Procedimientos almacenadados
+
+**Definición**: Un procedimiento almacenado en SQL Server es un conjunto de instrucciones SQL precompiladas que se almacenan en la base de datos y se pueden ejecutar como una unidad. Estos procedimientos encapsulan operaciones de consulta y manipulación de datos, lo que permite ejecutar comandos complejos y repetitivos de forma eficiente y organizada.
+
+**Características**: Puede realizar operaciones de modificación de datos, como INSERT, UPDATE y DELETE. No devuelve un valor directo (aunque puede devolver un valor de estado o código de error a través de parámetros de salida). Puede aceptar parámetros de entrada y parámetros de salida. Es posible realizar transacciones dentro del procedimiento. Puede no devolver nada explícitamente, aunque puede generar resultados a través de un conjunto de resultados, o también puede retornar un código de estado.
+
+### Tipos de procedimientos almacenados
+Los procedimientos almacenados pueden clasificarse en varios tipos, según su propósito y características.
+Las Principales son:
+### 1. Definidos por el Usuario
+Estos son procedimientos almacenados que los desarrolladores crean para realizar operaciones específicas en la base de datos, como insertar, actualizar, eliminar o consultar datos.
+```sql
+CREATE PROCEDURE InsertarProducto
+    @nombre VARCHAR(100),
+    @descripcion NVARCHAR(100),
+    @precio float,
+    @imagen varchar(150),
+    @id_categoria int
+    
+AS
+BEGIN
+    INSERT INTO Producto(nombre,descripcion,precio,imagen,id_categoria) 
+    VALUES (@nombre, @descripcion, @precio, @imagen,@id_categoria);
+END;
 
 Función almacenada Definición: Una función almacenada es un conjunto de instrucciones SQL que también se almacena en la base de datos, pero a diferencia de un procedimiento, una función siempre devuelve un valor. Este valor se puede utilizar en una expresión SQL o como parte de una consulta.
 Características: Siempre devuelve un valor (puede ser un valor simple, como un número o una cadena, o incluso un conjunto de resultados en algunos SGBD). No debe realizar modificaciones en la base de datos (no debe tener operaciones de tipo INSERT, UPDATE o DELETE). Su uso principal es el cálculo o la obtención de valores a partir de los datos. Puede aceptar parámetros de entrada. Se utiliza principalmente en consultas SELECT o en expresiones.
