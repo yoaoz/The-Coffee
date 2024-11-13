@@ -7,7 +7,7 @@ El manejo de permisos a nivel de usuarios en una base de datos es un aspecto cru
 ## Permisos a Nivel de Usuarios
 Los permisos a nivel de usuarios permiten asignar derechos específicos a individuos dentro del sistema de base de datos. Esto se puede realizar para otorgar acceso a un conjunto limitado de datos o funcionalidades. Por ejemplo, un usuario puede tener permiso solo para consultar ciertas tablas, pero no para modificar datos. Los permisos a nivel de usuario permiten un control granular sobre lo que cada persona o aplicación puede hacer dentro de la base de datos.
 
-#### Crear y asignar permisos a un usuario 
+#### Crear y Asignar Permisos a un Usuario 
 
 ```sql
 
