@@ -1,7 +1,7 @@
-# Tema 2 Procedimientos y funciones almacenadas
+# Tema 2 Funciones y Procedimientos almacenados
 
 ## Introducción
-Un procedimiento almacenado y una función almacenada son ambos objetos de base de datos que contienen bloques de código SQL que pueden ser ejecutados por el sistema de gestión de bases de datos (SGBD). Aunque ambos sirven para encapsular lógica que puede ser reutilizada, tienen algunas diferencias clave en cuanto a su propósito, comportamiento y características.
+Un procedimiento almacenado y una función son ambos objetos de base de datos que contienen bloques de código SQL que pueden ser ejecutados por el sistema de gestión de bases de datos (SGBD). Aunque ambos sirven para encapsular lógica que puede ser reutilizada, tienen algunas diferencias clave en cuanto a su propósito, comportamiento y características.
 
 ## Procedimientos almacenadados
 
@@ -56,13 +56,13 @@ END;
   - **Control de acceso:** Los permisos para ejecutar procedimientos almacenados pueden ser gestionados de manera más detallada,              permitiendo que los usuarios ejecuten el procedimiento sin necesidad de otorgar acceso directo a las tablas subyacentes.
 5. **Desacoplamiento de la lógica de negocios:**
   - Los procedimientos almacenados permiten desacoplar la lógica de negocios de la aplicación, lo que facilita la gestión de la base de       datos y la aplicación de manera independiente. La aplicación puede centrarse solo en la presentación de los datos, mientras que la        base de datos se encarga de la lógica.
-## Funciones Almacenadas
-**Definición:** Una función almacenada es un conjunto de instrucciones SQL que también se almacena en la base de datos, pero a diferencia de un procedimiento, una función siempre devuelve un valor. Este valor se puede utilizar en una expresión SQL o como parte de una consulta.
+## Funciones 
+**Definición:** Una función es un conjunto de instrucciones SQL que también se almacena en la base de datos, pero a diferencia de un procedimiento, una función siempre devuelve un valor. Este valor se puede utilizar en una expresión SQL o como parte de una consulta.
 
 **Características:** Siempre devuelve un valor (puede ser un valor simple, como un número o una cadena, o incluso un conjunto de resultados en algunos SGBD). No debe realizar modificaciones en la base de datos (no debe tener operaciones de tipo INSERT, UPDATE o DELETE). Su uso principal es el cálculo o la obtención de valores a partir de los datos. Puede aceptar parámetros de entrada. Se utiliza principalmente en consultas SELECT o en expresiones.
 
-### Tipos de funciones almacenadas
-Las funciones almacenadas pueden clasificarse de varias maneras, según su propósito y características.
+### Tipos de funciones
+Las funciones pueden clasificarse de varias maneras, según su propósito y características.
 Las Principales son:
 
 ### 1. Funciones escalares:
